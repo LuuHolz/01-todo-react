@@ -1,7 +1,13 @@
+import { CardsTodo, InputTodo, TodoCounter, TodoButton } from "../components";
 
 const TodoList = () => {
   return (
-    <div>TodoList</div>
+    <>
+        <TodoCounter/>
+        <InputTodo/>
+        <CardsTodo/>
+        <TodoButton/>
+    </>
   )
 }
 
