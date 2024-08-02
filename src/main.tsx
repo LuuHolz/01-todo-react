@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import TodoList from './pages/TodoList';
-import './styles/Home.scss';
+import './styles/index';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
