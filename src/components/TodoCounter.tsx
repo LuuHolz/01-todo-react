@@ -2,7 +2,8 @@
 const TodoCounter = () => {
   return (
     <>
-      <p>Has completado {0} de {3} TODOs</p>
+      <p className="textCounter">Has completado <span>0</span> de <span>3</span> TODOs</p>
+      <p className="textCounter">No hay tareas pendientes</p>
     </>
   )
 }

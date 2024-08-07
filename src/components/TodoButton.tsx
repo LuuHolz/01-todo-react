@@ -3,9 +3,9 @@ import { BsPlus } from "react-icons/bs";
 
 const TodoButton = () => {
   return (
-    <>
-      <button><BsPlus /></button>
-    </>
+    <div className="buttonContaier">
+      <button className="buttonAdd"><BsPlus /></button>
+    </div>
   )
 }
 

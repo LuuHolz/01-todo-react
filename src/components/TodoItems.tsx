@@ -3,11 +3,11 @@ import { BsCheck2 } from "react-icons/bs";
 
 const CardsTodo = () => {
   return (
-    <div>
-      <li>
-        <span><BsXLg /></span>
+    <div className="containerTodoItem">
+      <li className="liTodoItem">
+        <span className="iconCheck"><BsCheck2 /></span>
           <p>Text{}</p>
-        <span><BsCheck2 /></span>
+        <span className="iconDelete">< BsXLg/></span>
       </li>
     </div>
   )
